@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef name="instrument" classname="org.hibernate.tool.instrument.javassist.InstrumentTask">
+    <classpath>
+      <path refid="maven.dependency.classpath"/>
+      <path refid="maven.runtime.classpath"/>
+    </classpath>
+  </taskdef>
+  <instrument verbose="true">
+    <fileset dir="E:\Ankush\SpringFuse\new_workspace\demo\target\classes">
+      <include name="com/ankushn/demo/domain/Document.class"/>
+    </fileset>
+  </instrument>
+</target>
+</project>

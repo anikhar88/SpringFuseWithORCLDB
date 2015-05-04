@@ -1,0 +1,2495 @@
+[2015-05-01 21:43:35,316] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-01 21:43:36,316] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 21:43:36,617] [ERROR] [] [] [o.s.w.c.ContextLoader.initWebApplicationContext] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'exceptionTranslation' defined in class path resource [com/ankushn/demo/configuration/JpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/ankushn/demo/configuration/JpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: antlr/RecognitionException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:741) ~[spring-context-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464) ~[spring-context-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112) [spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:775) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424) [jetty-servlet-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:767) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249) [jetty-servlet-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1252) [jetty-webapp-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:710) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494) [jetty-webapp-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293) [jetty-maven-plugin-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:280) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65) [jetty-maven-plugin-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:520) [jetty-maven-plugin-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:365) [jetty-maven-plugin-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523) [jetty-maven-plugin-8.1.10.v20130312.jar:8.1.10.v20130312]
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154) [maven-core-3.2.3.jar:3.2.3]
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:582) [maven-embedder-3.2.3.jar:3.2.3]
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:214) [maven-embedder-3.2.3.jar:3.2.3]
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:158) [maven-embedder-3.2.3.jar:3.2.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_03]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_03]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_03]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289) [plexus-classworlds-2.5.1.jar:na]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229) [plexus-classworlds-2.5.1.jar:na]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415) [plexus-classworlds-2.5.1.jar:na]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356) [plexus-classworlds-2.5.1.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/ankushn/demo/configuration/JpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: antlr/RecognitionException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1482) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:438) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:277) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.<init>(PersistenceExceptionTranslationInterceptor.java:79) ~[spring-tx-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.dao.annotation.PersistenceExceptionTranslationAdvisor.<init>(PersistenceExceptionTranslationAdvisor.java:71) ~[spring-tx-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor.setBeanFactory(PersistenceExceptionTranslationPostProcessor.java:85) ~[spring-tx-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1502) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1470) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	... 52 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: antlr/RecognitionException
+	at org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.createQueryTranslator(ASTQueryTranslatorFactory.java:59) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:103) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.internal.SessionFactoryImpl.checkNamedQueries(SessionFactoryImpl.java:1083) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:520) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1790) ~[hibernate-core-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.ejb.EntityManagerFactoryImpl.<init>(EntityManagerFactoryImpl.java:96) ~[hibernate-entitymanager-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:914) ~[hibernate-entitymanager-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:899) ~[hibernate-entitymanager-4.2.6.Final.jar:4.2.6.Final]
+	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:76) ~[hibernate-entitymanager-4.2.6.Final.jar:4.2.6.Final]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:288) ~[spring-orm-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:310) ~[spring-orm-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1541) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1479) ~[spring-beans-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	... 67 common frames omitted
+Caused by: java.lang.ClassNotFoundException: antlr.RecognitionException
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50) ~[na:na]
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:259) ~[na:na]
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:235) ~[na:na]
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:227) ~[na:na]
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:430) ~[na:na]
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:383) ~[na:na]
+	... 82 common frames omitted
+[2015-05-01 21:46:27,594] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-01 21:46:29,290] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 21:46:38,157] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 21:46:38,161] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 21:47:03,782] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:47:03,915] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:47:03,917] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:05,698] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:33,381] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:47:33,452] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:47:33,456] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:33,460] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:33,463] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:33,466] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:33,468] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:33,470] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:33,472] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:33,473] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:33,475] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:34,087] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:43,902] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:47:43,948] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:47:43,949] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:43,955] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:43,957] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:43,969] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:43,970] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:43,974] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:43,976] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:44,191] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-01 21:47:44,423] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:47:44,720] [INFO ] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] User admin could not be found
+[2015-05-01 21:47:44,738] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:44,740] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:45,369] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:55,846] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:47:55,905] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:47:55,909] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:55,917] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:47:55,920] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:55,928] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:47:55,930] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:55,938] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:47:55,943] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:55,948] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-01 21:47:55,955] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:47:55,971] [INFO ] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] User admin could not be found
+[2015-05-01 21:47:55,976] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:47:55,978] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:47:56,004] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:48:16,582] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:48:16,630] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:48:16,631] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:48:16,636] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:48:16,637] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:48:16,643] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:48:16,644] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:48:16,648] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:48:16,649] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:48:16,653] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'user'
+[2015-05-01 21:48:16,657] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:48:16,669] [INFO ] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] User user could not be found
+[2015-05-01 21:48:16,674] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:48:16,676] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:48:16,700] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:48:21,580] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:48:21,623] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:48:21,625] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:48:21,629] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:48:21,633] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:48:21,639] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:48:21,643] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:48:21,648] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:48:21,650] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:48:21,654] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'user'
+[2015-05-01 21:48:21,657] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:48:21,672] [INFO ] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] User user could not be found
+[2015-05-01 21:48:21,676] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:48:21,677] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:48:21,710] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:00,436] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:00,475] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:00,476] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:00,482] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:00,483] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:00,488] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:00,489] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:00,493] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:00,495] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:00,498] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'user'
+[2015-05-01 21:53:00,501] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:53:00,588] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-01 21:53:00,690] [DEBUG] [1hiyrxpgf8bbf1q5ublsq4743w] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:00,716] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:00,720] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:00,722] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:01,056] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:18,603] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:18,647] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:18,648] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:18,721] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Account
+[2015-05-01 21:53:18,727] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:18,735] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:18,751] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:18,752] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:19,407] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:24,945] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:24,949] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:24,950] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:25,296] [DEBUG] [141ss4i3kbu6p21zi39eul3zq] [user] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:29,137] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:29,141] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:29,142] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:29,473] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:33,110] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:33,114] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:33,115] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:33,116] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:33,117] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:33,118] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:33,119] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:33,120] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:33,122] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:33,123] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:33,124] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:33,497] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:38,449] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:38,481] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:38,482] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:38,485] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:38,486] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:38,489] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:38,490] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:38,492] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:38,493] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:38,496] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'ADMIN'
+[2015-05-01 21:53:38,500] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:53:38,509] [INFO ] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] User ADMIN could not be found
+[2015-05-01 21:53:38,512] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:38,513] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:38,530] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:46,906] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:46,933] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:46,935] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:46,937] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:46,938] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:46,941] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:53:46,942] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:46,944] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:53:46,945] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:46,948] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-01 21:53:46,952] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 21:53:46,962] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-01 21:53:46,974] [DEBUG] [1rxr46uihr0c71fzy0isqfaq0m] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:53:46,989] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:46,993] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:46,995] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:47,335] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:50,620] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:50,648] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:50,649] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:50,654] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Account
+[2015-05-01 21:53:50,659] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:53:50,665] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:53:50,668] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:53:50,685] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:53:50,686] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:53:51,958] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-01 21:53:51,996] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:53:52,258] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:25,940] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:25,943] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:26,036] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:26,038] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:26,096] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0.login 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.login asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.LOGIN as col_0_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.LOGIN asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:26,111] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:26,113] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:26,158] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:26,355] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:26,358] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:26,434] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:26,436] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:26,443] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0.login 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.login asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.LOGIN as col_0_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.LOGIN asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:26,479] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:26,480] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:26,518] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:28,438] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:28,441] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:28,504] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:28,506] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:28,514] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0.login 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.login asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.LOGIN as col_0_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.LOGIN asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:28,524] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:28,526] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:28,566] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:47,052] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:47,058] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:47,103] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:47,105] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:47,116] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:47,118] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:54:47,155] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:54:47,157] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:54:47,168] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:54:47,169] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:54:47,172] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:54:47,173] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:47,212] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            lower(account0_.LOGIN) like ?
+[2015-05-01 21:54:47,240] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:47,469] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:49,369] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:49,372] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:49,424] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:49,426] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:49,436] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:49,438] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:54:49,450] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:54:49,501] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:54:49,510] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:54:49,511] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:54:49,513] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:54:49,515] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:49,546] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            lower(account0_.LOGIN) like ?
+[2015-05-01 21:54:49,564] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:49,786] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:56,526] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:56,529] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:56,577] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:56,578] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:56,586] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0.login 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.login asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.LOGIN as col_0_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.LOGIN asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:56,596] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:56,597] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:56,626] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:56,997] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:54:57,000] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:54:57,072] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:54:57,073] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:57,078] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0.login 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.login asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.LOGIN as col_0_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.LOGIN asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:54:57,090] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:54:57,092] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:54:57,120] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:00,269] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:55:00,274] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:55:00,329] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:55:00,330] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:00,340] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:00,344] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:55:00,355] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:55:00,357] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:55:00,364] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:55:00,366] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:55:00,367] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:55:00,368] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:00,415] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            lower(account0_.LOGIN) like ?
+[2015-05-01 21:55:00,428] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        lower(generatedAlias0.login) like :param0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                lower(account0_.LOGIN) like ? 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:55:00,461] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:12,782] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:55:12,785] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:55:12,835] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:55:12,837] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:12,841] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:12,842] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:12,901] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:14,521] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:55:14,527] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:55:14,570] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:55:14,577] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:14,584] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:55:14,585] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:55:14,593] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:55:14,595] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:55:14,599] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:55:14,600] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:55:14,601] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:55:14,602] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:55:14,642] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-01 21:55:14,653] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-01 21:55:14,847] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:56:43,610] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-01 21:56:43,614] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:56:43,665] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:56:43,666] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:56:43,675] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:56:43,676] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:56:43,689] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:56:43,691] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:56:43,698] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:56:43,699] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:56:43,944] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Book
+[2015-05-01 21:56:43,947] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:56:43,983] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-01 21:56:43,989] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:56:44,011] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:56:44,013] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:56:44,495] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Book as generatedAlias0 */ select
+            count(distinct book0_.ID) as col_0_0_ 
+        from
+            BOOK book0_
+[2015-05-01 21:56:44,528] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Book as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct book0_.ID as ID1_3_,
+                book0_.ACCOUNT_ID as ACCOUNT_5_3_,
+                book0_.NUMBER_OF_PAGES as NUMBER_O2_3_,
+                book0_.TITLE as TITLE3_3_,
+                book0_.VERSION as VERSION4_3_ 
+            from
+                BOOK book0_ ) 
+        where
+            rownum <= ?
+[2015-05-01 21:56:44,616] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:56:52,850] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-01 21:56:52,853] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:56:52,887] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:56:52,889] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:56:52,897] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:56:52,898] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:56:52,906] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:56:52,908] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:56:52,914] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:56:52,915] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:56:52,927] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:56:52,972] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Edit Prime Faces User Guide
+[2015-05-01 21:56:52,974] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-01 21:56:52,978] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:56:52,988] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:56:52,990] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:56:53,920] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Book */ select
+        book0_.ID as ID1_3_0_,
+        book0_.ACCOUNT_ID as ACCOUNT_5_3_0_,
+        book0_.NUMBER_OF_PAGES as NUMBER_O2_3_0_,
+        book0_.TITLE as TITLE3_3_0_,
+        book0_.VERSION as VERSION4_3_0_ 
+    from
+        BOOK book0_ 
+    where
+        book0_.ID=?
+[2015-05-01 21:56:53,929] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Account */ select
+        account0_.ID as ID1_0_0_,
+        account0_.ADDRESS_ID as ADDRESS16_0_0_,
+        account0_.BIRTH_DATE as BIRTH_DA2_0_0_,
+        account0_.CIVILITY as CIVILITY3_0_0_,
+        account0_.CREATION_AUTHOR as CREATION4_0_0_,
+        account0_.CREATION_DATE as CREATION5_0_0_,
+        account0_.DESCRIPTION as DESCRIPT6_0_0_,
+        account0_.EMAIL as EMAIL7_0_0_,
+        account0_.FIRST_NAME as FIRST_NA8_0_0_,
+        account0_.IS_ENABLED as IS_ENABL9_0_0_,
+        account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_0_,
+        account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_0_,
+        account0_.LAST_NAME as LAST_NA12_0_0_,
+        account0_.LOGIN as LOGIN13_0_0_,
+        account0_."PASSWORD" as PASSWOR14_0_0_,
+        account0_.VERSION as VERSION15_0_0_ 
+    from
+        ACCOUNT account0_ 
+    where
+        account0_.ID=?
+[2015-05-01 21:56:54,269] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:00,223] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-01 21:57:00,226] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:00,267] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:00,272] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:00,286] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:00,296] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:57:00,309] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:57:00,316] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:57:00,318] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:57:00,320] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:57:00,326] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:57:00,335] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:00,387] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:00,421] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-01 21:57:00,424] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:00,454] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:00,455] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:00,457] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:00,458] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:00,474] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:03,174] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-01 21:57:03,184] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:03,223] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:03,229] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:03,241] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:03,246] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.popContextesIfNeeded] popped 1 context from stack: Edit Prime Faces User Guide
+[2015-05-01 21:57:03,254] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-01 21:57:03,259] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:03,265] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:03,268] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:03,565] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Book as generatedAlias0 */ select
+            count(distinct book0_.ID) as col_0_0_ 
+        from
+            BOOK book0_
+[2015-05-01 21:57:03,573] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Book as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct book0_.ID as ID1_3_,
+                book0_.ACCOUNT_ID as ACCOUNT_5_3_,
+                book0_.NUMBER_OF_PAGES as NUMBER_O2_3_,
+                book0_.TITLE as TITLE3_3_,
+                book0_.VERSION as VERSION4_3_ 
+            from
+                BOOK book0_ ) 
+        where
+            rownum <= ?
+[2015-05-01 21:57:03,615] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:53,802] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-01 21:57:53,806] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:53,852] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:53,855] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:53,860] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:57:53,862] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:57:53,869] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:57:53,871] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:57:53,878] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:57:53,880] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:57:53,915] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Dbuser
+[2015-05-01 21:57:53,918] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:57:53,946] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 1
+[2015-05-01 21:57:53,949] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:57:53,963] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:57:53,969] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:57:54,436] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Dbuser as generatedAlias0 */ select
+            count(distinct dbuser0_.USER_ID) as col_0_0_ 
+        from
+            DBUSER dbuser0_
+[2015-05-01 21:57:54,450] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Dbuser as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct dbuser0_.USER_ID as USER_ID1_4_,
+                dbuser0_.CREATED_BY as CREATED_2_4_,
+                dbuser0_.CREATED_DATE as CREATED_3_4_,
+                dbuser0_.USERNAME as USERNAME4_4_ 
+            from
+                DBUSER dbuser0_ ) 
+        where
+            rownum <= ?
+[2015-05-01 21:57:54,507] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:20,658] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 1
+[2015-05-01 21:58:20,661] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:58:20,689] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:58:20,690] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:20,694] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:20,697] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:20,701] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:20,702] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:20,704] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:20,705] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:20,707] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:20,708] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:20,738] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Dbuser as generatedAlias0 */ select
+            count(distinct dbuser0_.USER_ID) as col_0_0_ 
+        from
+            DBUSER dbuser0_
+[2015-05-01 21:58:20,747] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Dbuser as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct dbuser0_.USER_ID as USER_ID1_4_,
+                dbuser0_.CREATED_BY as CREATED_2_4_,
+                dbuser0_.CREATED_DATE as CREATED_3_4_,
+                dbuser0_.USERNAME as USERNAME4_4_ 
+            from
+                DBUSER dbuser0_ ) 
+        where
+            rownum <= ?
+[2015-05-01 21:58:20,761] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:30,247] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 1
+[2015-05-01 21:58:30,251] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:58:30,287] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:58:30,295] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:30,310] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:30,325] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:30,335] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:30,337] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:30,339] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:30,342] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:30,345] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:30,350] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Edit superman/system
+[2015-05-01 21:58:30,351] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 2
+[2015-05-01 21:58:30,354] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:58:30,364] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:58:30,366] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:30,683] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:35,908] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 2
+[2015-05-01 21:58:35,911] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:58:35,946] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:58:35,951] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:35,959] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 21:58:35,963] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:36,073] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 21:58:36,074] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:36,077] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 21:58:36,078] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:36,099] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Dbuser */ select
+        dbuser0_.USER_ID as USER_ID1_4_0_,
+        dbuser0_.CREATED_BY as CREATED_2_4_0_,
+        dbuser0_.CREATED_DATE as CREATED_3_4_0_,
+        dbuser0_.USERNAME as USERNAME4_4_0_ 
+    from
+        DBUSER dbuser0_ 
+    where
+        dbuser0_.USER_ID=?
+[2015-05-01 21:58:36,164] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* update
+        com.ankushn.demo.domain.Dbuser */ update
+            DBUSER 
+        set
+            CREATED_BY=?,
+            CREATED_DATE=?,
+            USERNAME=? 
+        where
+            USER_ID=?
+[2015-05-01 21:58:36,250] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 21:58:36,252] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.Conversation.popContextesIfNeeded] popped 1 context from stack: Edit superman/system
+[2015-05-01 21:58:36,267] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 3 resumed. Nb ctx: 1
+[2015-05-01 21:58:36,272] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 21:58:36,277] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 21:58:36,279] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 21:58:36,616] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Dbuser as generatedAlias0 */ select
+            count(distinct dbuser0_.USER_ID) as col_0_0_ 
+        from
+            DBUSER dbuser0_
+[2015-05-01 21:58:36,624] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Dbuser as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct dbuser0_.USER_ID as USER_ID1_4_,
+                dbuser0_.CREATED_BY as CREATED_2_4_,
+                dbuser0_.CREATED_DATE as CREATED_3_4_,
+                dbuser0_.USERNAME as USERNAME4_4_ 
+            from
+                DBUSER dbuser0_ ) 
+        where
+            rownum <= ?
+[2015-05-01 21:58:36,641] [DEBUG] [tpnltz2cv9gv15ee9a8r6rjb7] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:31:16,183] [WARN ] [] [] [o.h.e.j.i.JdbcServicesImpl.configure] HHH000342: Could not obtain connection to query metadata : oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:31:17,868] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 22:31:24,051] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 22:31:24,053] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 22:31:41,643] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:31:41,765] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:31:41,766] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:31:43,699] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:15,811] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:32:15,886] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:32:15,887] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:16,080] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Create Account
+[2015-05-01 22:32:16,092] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:16,115] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:32:16,163] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:32:16,164] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:16,168] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:16,169] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:16,171] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:16,172] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:16,173] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:16,173] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:16,174] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:16,174] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:16,758] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:22,635] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:32:22,681] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:32:22,682] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:22,686] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:22,687] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:22,696] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:22,697] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:22,700] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:22,700] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:22,874] [WARN ] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:32:22,876] [ERROR] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:32:22,886] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:22,887] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:23,127] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:31,781] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:32:31,828] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:32:31,829] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:31,833] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:31,834] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:31,840] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:31,842] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:31,844] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:31,845] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:31,855] [WARN ] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:32:31,856] [ERROR] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:32:31,858] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:31,858] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:31,897] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:43,021] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:32:43,064] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:32:43,065] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:43,069] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:32:43,070] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:43,074] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:32:43,075] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:43,077] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:32:43,078] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:43,085] [WARN ] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:32:43,086] [ERROR] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:32:43,087] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:32:43,088] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:32:43,134] [DEBUG] [9cz841m0jzsd4dp6gg7glv67] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:14,396] [WARN ] [] [] [o.h.e.j.i.JdbcServicesImpl.configure] HHH000342: Could not obtain connection to query metadata : oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:42:15,970] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 22:42:21,868] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 22:42:21,871] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 22:42:26,923] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:42:27,239] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:42:27,240] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:27,242] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:27,243] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:27,245] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:27,246] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:27,247] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:27,247] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:27,248] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:27,249] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:28,965] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:31,081] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:42:31,085] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:42:31,086] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:31,087] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:31,088] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:31,089] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:31,090] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:31,091] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:31,092] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:31,093] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:31,093] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:31,459] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:38,563] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:42:38,609] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:42:38,610] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:38,616] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:42:38,617] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:38,628] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:42:38,629] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:38,632] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:42:38,633] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:38,820] [WARN ] [6i9q430uwx738sytp4585usz] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:42:38,822] [ERROR] [6i9q430uwx738sytp4585usz] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:42:38,836] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:42:38,837] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:42:39,447] [DEBUG] [6i9q430uwx738sytp4585usz] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:51:32,628] [WARN ] [] [] [o.h.e.j.i.JdbcServicesImpl.configure] HHH000342: Could not obtain connection to query metadata : oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:51:34,235] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 22:51:40,112] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 22:51:40,115] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 22:53:14,457] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:53:14,785] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:53:14,786] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:53:14,789] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:53:14,790] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:53:14,792] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:53:14,792] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:53:14,793] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:53:14,794] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:53:14,795] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:53:14,795] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:53:16,482] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:53:21,848] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:53:21,912] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:53:21,913] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:53:21,921] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:53:21,922] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:53:21,933] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:53:21,934] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:53:21,937] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:53:21,938] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:53:22,514] [WARN ] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:53:22,516] [ERROR] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:53:22,530] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:53:22,531] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:53:22,767] [DEBUG] [ii0d9ng3h1bj3vz6s872091a] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:55:11,582] [WARN ] [] [] [o.h.e.j.i.JdbcServicesImpl.configure] HHH000342: Could not obtain connection to query metadata : oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:55:12,499] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 22:55:16,575] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 22:55:16,578] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 22:57:23,222] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:57:23,885] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:57:23,886] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:57:23,889] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:57:23,890] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:57:23,947] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:57:23,948] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:57:24,092] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:57:24,094] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:57:24,094] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:57:24,095] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:57:25,429] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 22:57:36,887] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 22:57:36,940] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 22:57:36,941] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:57:36,948] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 22:57:36,949] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:57:36,960] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 22:57:36,962] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:57:36,965] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 22:57:36,966] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 22:57:37,172] [WARN ] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] SQL Error: 0, SQLState: null
+[2015-05-01 22:57:37,174] [ERROR] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [o.h.e.j.s.SqlExceptionHelper.logExceptions] oracle.jdbc.driver.OracleDriver
+[2015-05-01 22:57:37,187] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 22:57:37,188] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 22:57:37,388] [DEBUG] [we19igjlux164yqs5rsfwzqy] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 23:00:32,107] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-01 23:00:33,663] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 23:00:39,351] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 23:00:39,355] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 23:01:03,771] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:01:04,101] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:01:04,103] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:01:04,108] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:01:04,110] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:01:04,197] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:01:04,199] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:01:04,343] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:01:04,344] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 23:01:04,346] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 23:01:04,348] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 23:01:06,077] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 23:01:13,570] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:01:13,633] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:01:13,634] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:01:13,643] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:01:13,645] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:01:13,658] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:01:13,660] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:01:13,665] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:01:13,667] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 23:01:13,854] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-01 23:01:14,061] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 23:01:14,418] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-01 23:01:15,037] [DEBUG] [dun1mvqtly0q1pgjk7czutl2] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 23:01:15,091] [DEBUG] [l5vatl345v2xtt128doowv4w] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:01:15,111] [DEBUG] [l5vatl345v2xtt128doowv4w] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:01:15,112] [DEBUG] [l5vatl345v2xtt128doowv4w] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 23:01:15,574] [DEBUG] [l5vatl345v2xtt128doowv4w] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:15,192] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-01 23:05:16,878] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-01 23:05:22,382] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-01 23:05:22,385] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-01 23:05:26,930] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:05:27,073] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:05:27,075] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:28,926] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:31,635] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:05:31,687] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:05:31,688] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:05:31,691] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:05:31,692] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:05:31,694] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:05:31,695] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:05:31,696] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:05:31,697] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 23:05:31,698] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 23:05:31,699] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:32,290] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:36,050] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:05:36,096] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:05:36,097] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:05:36,103] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-01 23:05:36,104] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:05:36,114] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-01 23:05:36,115] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:05:36,118] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-01 23:05:36,119] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-01 23:05:36,294] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-01 23:05:36,502] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-01 23:05:36,812] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-01 23:05:36,990] [DEBUG] [vz1gitftx43mldaiz9ntbl54] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-01 23:05:37,010] [DEBUG] [hquz4zqbp6hf13wor8rgimf3a] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-01 23:05:37,013] [DEBUG] [hquz4zqbp6hf13wor8rgimf3a] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-01 23:05:37,014] [DEBUG] [hquz4zqbp6hf13wor8rgimf3a] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-01 23:05:37,398] [DEBUG] [hquz4zqbp6hf13wor8rgimf3a] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 14:22:52,543] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-03 14:22:54,241] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-03 14:22:58,650] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-03 14:22:58,652] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-03 15:42:19,100] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:42:19,222] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:42:19,223] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:42:21,043] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:42:26,268] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:42:26,326] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:42:26,327] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:42:26,331] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:42:26,332] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:42:26,334] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:42:26,335] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:42:26,336] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:42:26,337] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:42:26,338] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:42:26,338] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:42:26,926] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:42:35,541] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:42:35,596] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:42:35,597] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:42:35,602] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:42:35,604] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:42:35,619] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:42:35,620] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:42:35,623] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:42:35,624] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:42:35,831] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-03 15:42:36,024] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-03 15:42:36,426] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-03 15:42:36,771] [DEBUG] [wmg3hji8xvk216sr38e4lg8qs] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:42:36,795] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:42:36,800] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:42:36,801] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:42:37,192] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:01,082] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:01,135] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:01,136] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:01,148] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:01,150] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:43:01,177] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:43:01,178] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:43:01,182] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:43:01,184] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:43:01,423] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Dbuser
+[2015-05-03 15:43:01,427] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:43:01,440] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-03 15:43:01,443] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:01,487] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:01,488] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:02,516] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Dbuser as generatedAlias0 */ select
+            count(distinct dbuser0_.USER_ID) as col_0_0_ 
+        from
+            DBUSER dbuser0_
+[2015-05-03 15:43:02,544] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Dbuser as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct dbuser0_.USER_ID as USER_ID1_4_,
+                dbuser0_.CREATED_BY as CREATED_2_4_,
+                dbuser0_.CREATED_DATE as CREATED_3_4_,
+                dbuser0_.USERNAME as USERNAME4_4_ 
+            from
+                DBUSER dbuser0_ ) 
+        where
+            rownum <= ?
+[2015-05-03 15:43:02,627] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:11,070] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-03 15:43:11,073] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:11,196] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:11,200] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:11,241] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:11,269] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:11,312] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:11,313] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:11,717] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:36,451] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:36,496] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:36,497] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:36,540] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:36,558] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:36,949] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:55,366] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:55,390] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:55,391] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:55,394] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:43:55,394] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:43:55,403] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:43:55,405] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:43:55,408] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:43:55,409] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:43:55,448] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Search Account
+[2015-05-03 15:43:55,454] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:43:55,482] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:43:55,485] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:43:55,541] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:43:55,543] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:43:56,403] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:43:56,451] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:43:56,758] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:19,062] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:44:19,065] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:19,148] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:19,149] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:19,159] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:19,160] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:19,190] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:19,191] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:19,199] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:19,200] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:19,204] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:19,209] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Edit disabled@example.com
+[2015-05-03 15:44:19,210] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-03 15:44:19,212] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:19,250] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:19,251] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:20,534] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Account */ select
+        account0_.ID as ID1_0_0_,
+        account0_.ADDRESS_ID as ADDRESS16_0_0_,
+        account0_.BIRTH_DATE as BIRTH_DA2_0_0_,
+        account0_.CIVILITY as CIVILITY3_0_0_,
+        account0_.CREATION_AUTHOR as CREATION4_0_0_,
+        account0_.CREATION_DATE as CREATION5_0_0_,
+        account0_.DESCRIPTION as DESCRIPT6_0_0_,
+        account0_.EMAIL as EMAIL7_0_0_,
+        account0_.FIRST_NAME as FIRST_NA8_0_0_,
+        account0_.IS_ENABLED as IS_ENABL9_0_0_,
+        account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_0_,
+        account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_0_,
+        account0_.LAST_NAME as LAST_NA12_0_0_,
+        account0_.LOGIN as LOGIN13_0_0_,
+        account0_."PASSWORD" as PASSWOR14_0_0_,
+        account0_.VERSION as VERSION15_0_0_ 
+    from
+        ACCOUNT account0_ 
+    where
+        account0_.ID=?
+[2015-05-03 15:44:20,541] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Address */ select
+        address0_.ID as ID1_2_0_,
+        address0_.CITY as CITY2_2_0_,
+        address0_.STREET_NAME as STREET_N3_2_0_,
+        address0_.VERSION as VERSION4_2_0_ 
+    from
+        ADDRESS address0_ 
+    where
+        address0_.ID=?
+[2015-05-03 15:44:20,603] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-03 15:44:21,283] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:33,160] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-03 15:44:33,163] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:33,298] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:33,299] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:33,304] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:33,305] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:33,413] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(c) 
+    from
+        Account c 
+    where
+        upper(login)=:login 
+        and id<>:id */ select
+            count(account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            upper(account0_.LOGIN)=? 
+            and account0_.ID<>?
+[2015-05-03 15:44:33,525] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(c) 
+    from
+        Account c 
+    where
+        upper(email)=:email 
+        and id<>:id */ select
+            count(account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            upper(account0_.EMAIL)=? 
+            and account0_.ID<>?
+[2015-05-03 15:44:33,546] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:33,547] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:33,551] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:33,552] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:33,572] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Account */ select
+        account0_.ID as ID1_0_2_,
+        account0_.ADDRESS_ID as ADDRESS16_0_2_,
+        account0_.BIRTH_DATE as BIRTH_DA2_0_2_,
+        account0_.CIVILITY as CIVILITY3_0_2_,
+        account0_.CREATION_AUTHOR as CREATION4_0_2_,
+        account0_.CREATION_DATE as CREATION5_0_2_,
+        account0_.DESCRIPTION as DESCRIPT6_0_2_,
+        account0_.EMAIL as EMAIL7_0_2_,
+        account0_.FIRST_NAME as FIRST_NA8_0_2_,
+        account0_.IS_ENABLED as IS_ENABL9_0_2_,
+        account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_2_,
+        account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_2_,
+        account0_.LAST_NAME as LAST_NA12_0_2_,
+        account0_.LOGIN as LOGIN13_0_2_,
+        account0_."PASSWORD" as PASSWOR14_0_2_,
+        account0_.VERSION as VERSION15_0_2_,
+        address1_.ID as ID1_2_0_,
+        address1_.CITY as CITY2_2_0_,
+        address1_.STREET_NAME as STREET_N3_2_0_,
+        address1_.VERSION as VERSION4_2_0_,
+        roles2_.ACCOUNT_ID as ACCOUNT_1_0_4_,
+        role3_.ID as ROLE_ID2_1_4_,
+        role3_.ID as ID1_8_1_,
+        role3_.ROLE_NAME as ROLE_NAM2_8_1_ 
+    from
+        ACCOUNT account0_ 
+    left outer join
+        ADDRESS address1_ 
+            on account0_.ADDRESS_ID=address1_.ID 
+    left outer join
+        ACCOUNT_ROLE roles2_ 
+            on account0_.ID=roles2_.ACCOUNT_ID 
+    left outer join
+        "ROLE" role3_ 
+            on roles2_.ROLE_ID=role3_.ID 
+    where
+        account0_.ID=?
+[2015-05-03 15:44:33,687] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* update
+        com.ankushn.demo.domain.Account */ update
+            ACCOUNT 
+        set
+            ADDRESS_ID=?,
+            BIRTH_DATE=?,
+            CIVILITY=?,
+            CREATION_AUTHOR=?,
+            CREATION_DATE=?,
+            DESCRIPTION=?,
+            EMAIL=?,
+            FIRST_NAME=?,
+            IS_ENABLED=?,
+            LAST_MODIFICATION_AUTHOR=?,
+            LAST_MODIFICATION_DATE=?,
+            LAST_NAME=?,
+            LOGIN=?,
+            "PASSWORD"=?,
+            VERSION=? 
+        where
+            ID=? 
+            and VERSION=?
+[2015-05-03 15:44:33,776] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:33,777] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.Conversation.popContextesIfNeeded] popped 1 context from stack: Edit disabled@example.com
+[2015-05-03 15:44:33,797] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:44:33,800] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:33,803] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:33,804] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:34,237] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:44:34,246] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:44:34,498] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:49,207] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:44:49,211] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:49,270] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:49,271] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:49,280] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:49,281] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:49,290] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:49,291] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:49,299] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:49,300] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:49,303] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:49,311] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.Conversation.pushNextContextIfNeeded] pushed 1 context on stack: Edit disabled@example.com
+[2015-05-03 15:44:49,312] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-03 15:44:49,315] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:49,318] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:49,319] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:49,338] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Account */ select
+        account0_.ID as ID1_0_0_,
+        account0_.ADDRESS_ID as ADDRESS16_0_0_,
+        account0_.BIRTH_DATE as BIRTH_DA2_0_0_,
+        account0_.CIVILITY as CIVILITY3_0_0_,
+        account0_.CREATION_AUTHOR as CREATION4_0_0_,
+        account0_.CREATION_DATE as CREATION5_0_0_,
+        account0_.DESCRIPTION as DESCRIPT6_0_0_,
+        account0_.EMAIL as EMAIL7_0_0_,
+        account0_.FIRST_NAME as FIRST_NA8_0_0_,
+        account0_.IS_ENABLED as IS_ENABL9_0_0_,
+        account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_0_,
+        account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_0_,
+        account0_.LAST_NAME as LAST_NA12_0_0_,
+        account0_.LOGIN as LOGIN13_0_0_,
+        account0_."PASSWORD" as PASSWOR14_0_0_,
+        account0_.VERSION as VERSION15_0_0_ 
+    from
+        ACCOUNT account0_ 
+    where
+        account0_.ID=?
+[2015-05-03 15:44:49,359] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Address */ select
+        address0_.ID as ID1_2_0_,
+        address0_.CITY as CITY2_2_0_,
+        address0_.STREET_NAME as STREET_N3_2_0_,
+        address0_.VERSION as VERSION4_2_0_ 
+    from
+        ADDRESS address0_ 
+    where
+        address0_.ID=?
+[2015-05-03 15:44:49,365] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-03 15:44:49,688] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:55,271] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 2
+[2015-05-03 15:44:55,273] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:55,373] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:55,375] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:55,380] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 15:44:55,381] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:55,394] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(c) 
+    from
+        Account c 
+    where
+        upper(login)=:login 
+        and id<>:id */ select
+            count(account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            upper(account0_.LOGIN)=? 
+            and account0_.ID<>?
+[2015-05-03 15:44:55,403] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(c) 
+    from
+        Account c 
+    where
+        upper(email)=:email 
+        and id<>:id */ select
+            count(account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_ 
+        where
+            upper(account0_.EMAIL)=? 
+            and account0_.ID<>?
+[2015-05-03 15:44:55,415] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 15:44:55,416] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:55,421] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 15:44:55,422] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:55,426] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load com.ankushn.demo.domain.Account */ select
+        account0_.ID as ID1_0_2_,
+        account0_.ADDRESS_ID as ADDRESS16_0_2_,
+        account0_.BIRTH_DATE as BIRTH_DA2_0_2_,
+        account0_.CIVILITY as CIVILITY3_0_2_,
+        account0_.CREATION_AUTHOR as CREATION4_0_2_,
+        account0_.CREATION_DATE as CREATION5_0_2_,
+        account0_.DESCRIPTION as DESCRIPT6_0_2_,
+        account0_.EMAIL as EMAIL7_0_2_,
+        account0_.FIRST_NAME as FIRST_NA8_0_2_,
+        account0_.IS_ENABLED as IS_ENABL9_0_2_,
+        account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_2_,
+        account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_2_,
+        account0_.LAST_NAME as LAST_NA12_0_2_,
+        account0_.LOGIN as LOGIN13_0_2_,
+        account0_."PASSWORD" as PASSWOR14_0_2_,
+        account0_.VERSION as VERSION15_0_2_,
+        address1_.ID as ID1_2_0_,
+        address1_.CITY as CITY2_2_0_,
+        address1_.STREET_NAME as STREET_N3_2_0_,
+        address1_.VERSION as VERSION4_2_0_,
+        roles2_.ACCOUNT_ID as ACCOUNT_1_0_4_,
+        role3_.ID as ROLE_ID2_1_4_,
+        role3_.ID as ID1_8_1_,
+        role3_.ROLE_NAME as ROLE_NAM2_8_1_ 
+    from
+        ACCOUNT account0_ 
+    left outer join
+        ADDRESS address1_ 
+            on account0_.ADDRESS_ID=address1_.ID 
+    left outer join
+        ACCOUNT_ROLE roles2_ 
+            on account0_.ID=roles2_.ACCOUNT_ID 
+    left outer join
+        "ROLE" role3_ 
+            on roles2_.ROLE_ID=role3_.ID 
+    where
+        account0_.ID=?
+[2015-05-03 15:44:55,436] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* update
+        com.ankushn.demo.domain.Account */ update
+            ACCOUNT 
+        set
+            ADDRESS_ID=?,
+            BIRTH_DATE=?,
+            CIVILITY=?,
+            CREATION_AUTHOR=?,
+            CREATION_DATE=?,
+            DESCRIPTION=?,
+            EMAIL=?,
+            FIRST_NAME=?,
+            IS_ENABLED=?,
+            LAST_MODIFICATION_AUTHOR=?,
+            LAST_MODIFICATION_DATE=?,
+            LAST_NAME=?,
+            LOGIN=?,
+            "PASSWORD"=?,
+            VERSION=? 
+        where
+            ID=? 
+            and VERSION=?
+[2015-05-03 15:44:55,445] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 15:44:55,446] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.Conversation.popContextesIfNeeded] popped 1 context from stack: Edit disabled@example.com
+[2015-05-03 15:44:55,462] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:44:55,465] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:44:55,468] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:44:55,469] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:44:55,888] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:44:55,896] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:44:56,141] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:00,115] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:49:00,120] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,126] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,127] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:00,225] [ERROR] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Uri not in sync with conversation expecting _ccid_=1 but got 3. requested url: /demo/domain/accountEdit.faces => we redirect her to /domain/accountSelect.faces?_cid=2c1
+[2015-05-03 15:49:00,234] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:49:00,237] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,240] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,241] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:00,400] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 2 resumed. Nb ctx: 1
+[2015-05-03 15:49:00,403] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,406] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:49:00,407] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:00,915] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:49:00,923] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:49:01,124] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:49:01,132] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:49:01,336] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Account as generatedAlias0 */ select
+            count(distinct account0_.ID) as col_0_0_ 
+        from
+            ACCOUNT account0_
+[2015-05-03 15:49:01,343] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Account as generatedAlias0 
+    order by
+        generatedAlias0.email asc */ select
+            * 
+        from
+            ( select
+                distinct account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            order by
+                account0_.EMAIL asc ) 
+        where
+            rownum <= ?
+[2015-05-03 15:49:01,693] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:01,803] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:01,829] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:55,626] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.c.ConversationFilter.doFilter] Conv. 1 resumed. Nb ctx: 1
+[2015-05-03 15:49:55,636] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 15:49:55,640] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 15:49:55,641] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 15:49:56,079] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        count(distinct generatedAlias0) 
+    from
+        Dbuser as generatedAlias0 */ select
+            count(distinct dbuser0_.USER_ID) as col_0_0_ 
+        from
+            DBUSER dbuser0_
+[2015-05-03 15:49:56,087] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        distinct generatedAlias0 
+    from
+        Dbuser as generatedAlias0 */ select
+            * 
+        from
+            ( select
+                distinct dbuser0_.USER_ID as USER_ID1_4_,
+                dbuser0_.CREATED_BY as CREATED_2_4_,
+                dbuser0_.CREATED_DATE as CREATED_3_4_,
+                dbuser0_.USERNAME as USERNAME4_4_ 
+            from
+                DBUSER dbuser0_ ) 
+        where
+            rownum <= ?
+[2015-05-03 15:49:56,102] [DEBUG] [1ehbzjx91ucb613n6l6db39wci] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:10,313] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:10,317] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:10,318] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:10,319] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:10,319] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:10,320] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:10,321] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:10,321] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:10,322] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:10,322] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:10,323] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:10,351] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:21,402] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:21,405] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:21,406] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:21,407] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:21,408] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:21,409] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:21,409] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:21,410] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:21,411] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:21,412] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:21,413] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:21,453] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:27,140] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:27,143] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:27,144] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:27,145] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:27,145] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:27,146] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:27,147] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:27,147] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:27,148] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:27,148] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:27,149] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:27,171] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:30,212] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:30,215] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:30,216] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:30,217] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:30,217] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:30,218] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:30,220] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:30,221] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:30,221] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:30,222] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:30,223] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:30,739] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:55,502] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:55,524] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:55,525] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:55,529] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:00:55,530] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:55,532] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:00:55,533] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:55,534] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:00:55,535] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:55,537] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.s.UserDetailsServiceImpl.loadUserByUsername] Security verification for user 'admin'
+[2015-05-03 16:00:55,545] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* select
+        generatedAlias0 
+    from
+        Account as generatedAlias0 
+    where
+        generatedAlias0.login=:param0 */ select
+            * 
+        from
+            ( select
+                account0_.ID as ID1_0_,
+                account0_.ADDRESS_ID as ADDRESS16_0_,
+                account0_.BIRTH_DATE as BIRTH_DA2_0_,
+                account0_.CIVILITY as CIVILITY3_0_,
+                account0_.CREATION_AUTHOR as CREATION4_0_,
+                account0_.CREATION_DATE as CREATION5_0_,
+                account0_.DESCRIPTION as DESCRIPT6_0_,
+                account0_.EMAIL as EMAIL7_0_,
+                account0_.FIRST_NAME as FIRST_NA8_0_,
+                account0_.IS_ENABLED as IS_ENABL9_0_,
+                account0_.LAST_MODIFICATION_AUTHOR as LAST_MO10_0_,
+                account0_.LAST_MODIFICATION_DATE as LAST_MO11_0_,
+                account0_.LAST_NAME as LAST_NA12_0_,
+                account0_.LOGIN as LOGIN13_0_,
+                account0_."PASSWORD" as PASSWOR14_0_,
+                account0_.VERSION as VERSION15_0_ 
+            from
+                ACCOUNT account0_ 
+            where
+                account0_.LOGIN=? ) 
+        where
+            rownum <= ?
+[2015-05-03 16:00:55,553] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [o.h.e.j.s.SqlStatementLogger.logStatement] 
+    /* load collection com.ankushn.demo.domain.Account.roles */ select
+        roles0_.ACCOUNT_ID as ACCOUNT_1_0_1_,
+        roles0_.ROLE_ID as ROLE_ID2_1_1_,
+        role1_.ID as ID1_8_0_,
+        role1_.ROLE_NAME as ROLE_NAM2_8_0_ 
+    from
+        ACCOUNT_ROLE roles0_ 
+    inner join
+        "ROLE" role1_ 
+            on roles0_.ROLE_ID=role1_.ID 
+    where
+        roles0_.ACCOUNT_ID=?
+[2015-05-03 16:00:55,562] [DEBUG] [pofqd06qlreu8cm1igg0xitl] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:00:55,586] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:00:55,588] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:00:55,589] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:00:55,931] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:03:49,416] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:03:49,439] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:03:49,440] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:03:49,443] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:03:49,444] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:03:49,447] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:03:49,448] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:03:49,449] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:03:49,450] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:03:49,454] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:03:49,460] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:03:49,462] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:03:49,464] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:03:49,920] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:03:58,404] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:03:58,423] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:03:58,424] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:03:58,427] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:03:58,428] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:03:58,431] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:03:58,431] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:03:58,433] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:03:58,434] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:03:58,436] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:03:58,443] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:03:58,445] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:03:58,446] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:03:58,771] [DEBUG] [vnqnllvfq48v15ewn3j168krc] [admin] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:09:21,874] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:09:21,877] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:09:21,878] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:09:22,245] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-03 16:09:49,191] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-03 16:09:49,194] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-03 16:09:49,195] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:09:49,195] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] APPLY_REQUEST_VALUES 2
+[2015-05-03 16:09:49,196] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:09:49,196] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] PROCESS_VALIDATIONS 3
+[2015-05-03 16:09:49,197] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:09:49,198] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] UPDATE_MODEL_VALUES 4
+[2015-05-03 16:09:49,198] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] INVOKE_APPLICATION 5
+[2015-05-03 16:09:49,199] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] INVOKE_APPLICATION 5
+[2015-05-03 16:09:49,199] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-03 16:09:49,570] [DEBUG] [3cz9kz51zs8u7ub9x73jhk5k] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
+[2015-05-04 22:00:04,895] [WARN ] [] [] [o.h.e.j.i.TypeInfoExtracter.extractTypeInfo] HHH000273: Error accessing type info result set : java.sql.SQLException: Numeric Overflow
+[2015-05-04 22:00:06,271] [WARN ] [] [] [o.h.s.i.ConfigContext.getLuceneMatchVersion] HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+[2015-05-04 22:00:10,130] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Initializing filter 'localeResolverRequestFilter'
+[2015-05-04 22:00:10,133] [DEBUG] [] [] [o.s.w.f.GenericFilterBean.init] Filter 'localeResolverRequestFilter' configured successfully
+[2015-05-04 22:00:28,923] [DEBUG] [18fxsl3f2l6mav5kanz4ea0mu] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RESTORE_VIEW 1
+[2015-05-04 22:00:29,066] [DEBUG] [18fxsl3f2l6mav5kanz4ea0mu] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RESTORE_VIEW 1
+[2015-05-04 22:00:29,067] [DEBUG] [18fxsl3f2l6mav5kanz4ea0mu] [anonymousUser] [c.a.d.w.f.LogPhaseListener.beforePhase] RENDER_RESPONSE 6
+[2015-05-04 22:00:30,893] [DEBUG] [18fxsl3f2l6mav5kanz4ea0mu] [anonymousUser] [c.a.d.w.f.LogPhaseListener.afterPhase] RENDER_RESPONSE 6
