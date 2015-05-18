@@ -88,6 +88,7 @@
 		<!-- When using multi-modules, move this property to root package -->
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 	</properties>
+	<!-- Added by Springfuse team -->
 	<developers>
 		<developer>
 			<name>SpringFuse</name>
